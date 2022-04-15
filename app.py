@@ -134,6 +134,7 @@ def init_app_layout(fig1, fig2, fig3, fig4, fig5, fig6):
             #     )
             # ]),
             html.Div(className='viz-container', children=[
+                html.H2('Répartition temporelle des événements'),
                 dcc.Graph(
                     figure=fig4,
                     config=dict(
@@ -183,6 +184,7 @@ def init_app_layout(fig1, fig2, fig3, fig4, fig5, fig6):
                     ])
                 ]),
             html.Div(className='viz-container', children=[
+                html.H2('Diagramme de Sankey des centres et catégories culturelles'),
                 dcc.Graph(
                     figure=fig2,
                     config=dict(
@@ -209,6 +211,7 @@ def init_app_layout(fig1, fig2, fig3, fig4, fig5, fig6):
             #     )
             # ]),
             html.Div(className='viz-container', children=[
+                html.H2('Barchart pour les événements gratuits et payants.'),
                 dcc.Graph(
                     figure=fig7,
                     config=dict(

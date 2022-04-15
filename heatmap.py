@@ -41,7 +41,7 @@ def make_heatmap(df, years):
     ), showscale = True, selector=dict(type='heatmap'))
 
     fig.update_layout(
-        title="Répartition temporelle des événements",
+        #title="Répartition temporelle des événements",
         title_font_size=14
 
     )
