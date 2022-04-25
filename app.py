@@ -16,11 +16,11 @@ import pandas as pd
 with open("assets/Regions_Du_Quebec.json", "r") as response:
     qc = json.load(response)
 
-df_file = "assets/data_prix.csv"
+df_file = "data_prix.csv"
 
 df = preproc.to_df(df_file)
 
-df_N = preproc.to_df("assets/data_Cluster.csv")
+df_N = preproc.to_df("data_Cluster.csv")
 
 #dfEventsCount = preproc.group_by_column_count(df, 'region')
 # Create df from result obtained from dfEventsCount
@@ -32,8 +32,8 @@ d = {'region': ['Abitibi-Temiscamingue', 'Bas-Saint-Laurent', 'Capitale-National
 dfMap = pd.DataFrame(data=d)
 
 # data preparation
-repartition_region = preproc.to_df("assets/data_repartion_region.csv")
-montreal_quartier = preproc.to_df("assets/data_montreal.csv")
+repartition_region = preproc.to_df("data_repartion_region.csv")
+montreal_quartier = preproc.to_df("data_montreal.csv")
 clusters = preproc.add_cluster(repartition_region, montreal_quartier)
 
 new_df = preproc.add_clusters(df, clusters)
