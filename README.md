@@ -1,4 +1,5 @@
-# Projet_INF8808_Visualisation des Données des Événements Culturels au Québec
+# Projet_INF8808_Visualisation des Données 
+# Événements Culturels au Québec
 
 Ce projet vise à analyser et visualiser les événements culturels au Québec en utilisant des bibliothèques Python telles que Plotly, Seaborn et Matplotlib. Le but est de fournir des insights sur les types d'événements, leurs emplacements et leurs catégories à travers un tableau de bord interactif.
 
