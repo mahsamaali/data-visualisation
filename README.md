@@ -27,6 +27,11 @@ Ce projet vise à analyser et visualiser les événements culturels au Québec e
 Assurez-vous d'avoir les éléments suivants installés sur votre machine :
 
 - Python 3.7
+- Les bibliothèques Python listées dans `requirements.txt`
 
+Installez les dépendances en exécutant :
+
+```bash
+pip install -r requirements.txt
 
 
