@@ -20,7 +20,7 @@ Ce projet vise à analyser et visualiser les événements culturels au Québec e
 - `assets/` : Contient les fichiers statiques tels que les images et les feuilles de style.
 - `src/` : Inclut le code source principal de l'application, y compris les scripts Python pour le traitement des données et la génération des visualisations.
 - `data/` : Contient les jeux de données utilisés pour l'analyse, notamment les informations sur les événements culturels.
-- `templates/` : Comprend les fichiers HTML pour le rendu du tableau de bord.
+
 
 ## Prérequis
 
